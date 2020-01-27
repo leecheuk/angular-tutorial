@@ -22,10 +22,10 @@ export class HeroesComponent implements OnInit {
   }
 
   // initiate
-  selectedHero: Hero;
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
-  }
+  // selectedHero: Hero;
+  // onSelect(hero: Hero): void {
+  //   this.selectedHero = hero;
+  // }
 
   // get data from service
   getHeroes(): void {

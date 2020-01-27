@@ -1,10 +1,9 @@
 <h2>Heroes</h2>
 <ul class="heroes">
-    <li 
-        *ngFor="let h of heroes"
-        [class.active]="selectedHero === h"
-        (click)="onSelect(h)">
-        <span>{{h.id}}.)</span> {{h.name}}
+    <li *ngFor="let h of heroes">
+        <a routerLink="/detail/{{h.id}}">
+            <span>{{h.id}}.)</span> {{h.name}}
+        </a>
     </li>
 </ul>
 
