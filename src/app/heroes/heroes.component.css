@@ -1,0 +1,10 @@
+.heroes li {
+    cursor: pointer;
+}
+.heroes li:hover {
+    font-weight: bold;
+}
+li.active {
+    font-weight: bold;
+    color: red;
+}
